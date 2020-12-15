@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugme Issue Tracker</title>
+    <link rel="stylesheet" href="../CSS/NewIssue.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.1-web/css/all.css">
+    <script src=".js"></script>
+</head>
+
+<header>
+    <h2>
+        <span><i class="fas fa-bug"></i></span>
+        BugMe Issue Tracker
+    </h2>
+</header>
+
+<body>
+
+    <div class="sidenav">
+        <div class=sn>
+            <ul>
+                <li> <a  href="../Html/Home.html"> <span><i class="fas fa-home"></i></span>  Home</a> </li>
+
+                <li> <a  href="../Html/AddUser.html"> <span><i class="fas fa-user-plus"></i></span> Add User</a> </li>
+
+                <li> <a  href="../Html/NewIssue.html"> <span><i class="fas fa-plus-circle"></i></span> New Issue</a> </li>
+            
+                <li> <a  href="../Html/Logout.html"> <span><i class="fas fa-power-off"></i></i></span> Logout</a> </li>
+                
+            </ul>
+        </div>
+    </div>
+
+        
+
+    <div class="addform">
+        <h1 class="createissue">Create Issue</h1><br>
+
+        <form action=".php" method="POST " id="addform">
+            <label for="Title">Title</label><br>
+            <input type="text" id="title" name="title" value="" required><br><br>
+
+            <label for="Description">Description</label><br>
+            <textarea rows="10" cols="70" name="description" id="description" ></textarea><br><br>
+
+            <label for="Assigned To">Assigned To</label><br>
+            <select name="name" id="name">
+                <optgroup >
+                  <option value="#">Marcia Brady</option>
+                  <option value="#">Tom Brady</option>
+                </optgroup>
+              </select><br><br>
+
+            <label for="Type">Type</label><br>
+            <select name="name" id="name">
+                <optgroup >
+                  <option value="#">Bug</option>
+                  <option value="#">Proposal</option>
+                </optgroup>
+              </select><br><br>
+
+            <label for="Type">Priority</label><br>
+            <select name="name" id="name">
+                <optgroup >
+                  <option value="#">Major</option>
+                  <option value="#">Minor</option>
+                  <option value="#">Critical</option>
+                </optgroup>
+              </select><br><br>
+
+            <input id="button" type="submit" value="Submit" >
+        </form>
+   
+    </div>
+ 
+
+        
+    </div>
+</body>
+</html>

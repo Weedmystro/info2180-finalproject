@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>INFO2180 Final Project</title>
+    <link rel="stylesheet" href="../fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="../CSS/AddUser.css" />
+    <script src=".js"></script>
+</head>
+
+<header>
+    <h2>
+        <span><i class="fas fa-bug"></i></span>
+        BugMe Issue Tracker
+    </h2>
+</header>
+
+<body>
+
+        <div class="sidenav">
+            <div class=sn>
+                <ul>
+                    <li> <a  href="../Html/Home.html"> <span><i class="fas fa-home"></i></span>  Home</a> </li>
+    
+                    <li> <a  href="../Html/AddUser.html"> <span><i class="fas fa-user-plus"></i></span> Add User</a> </li>
+    
+                    <li> <a  href="../Html/NewIssue.html"> <span><i class="fas fa-plus-circle"></i></span> New Issue</a> </li>
+                
+                    <li> <a  href="../Html/Logout.html"> <span><i class="fas fa-power-off"></i></i></span> Logout</a> </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="addform">
+               <h1 class="newuser">New User</h1><br>
+
+            <form action=".php" method="POST " id="addform">
+            <label for="fname">Firstname</label>
+            <input type="text" id="fname" name="fname" value="" required><br><br>
+    
+            <label for="lname">Lastname</label>
+            <input type="text" id="lname" name="lname" value="" required><br><br>
+    
+            <label for="Password">Password</label>
+            <input type="text" id="Password" name="Password" value="" required><br><br>
+    
+            <label for="Email">Email</label>
+            <input type="text" id="email" name="email" value="" required><br><br>
+    
+            <input id="button" type="submit" value="Submit" >
+          </form>
+          
+        </div>
+        
+
+
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+    margin-top: -20px;
+}
+
+.sidenav{
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    left: 0;
+    top: 15;
+    padding-top: 20px;
+    padding-left: 15px;
+    background-color: lightgrey;
+}
+
+.sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+}
+
+h2 {
+    margin-left: 3%;
+    color: white;
+    background-color: black;
+    padding-top: 20px;
+}
+
+
+ul li{
+    list-style: none;
+    padding-bottom: 20px;
+    margin-left: -50px;
+    font-size: 18px;
+}
+
+a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: navy;
+}
+
+.form {
+    float: right;
+    position: right;
+    width: 6in;
+    padding: 50px;
+    margin-right: 450px;
+}
+
+.addform{
+    margin-left: 230px;
+    font-size: 18px;
+    padding-top: 0px;
+    width: 6in;
+}
+
+#button{
+    background-color: #352fcc; 
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: 2in;
+    border-radius: 5px;
+
+}
+
+.newuser{
+    font-size: 50px;
+    font-weight: bold;
+}
